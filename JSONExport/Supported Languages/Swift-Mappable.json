@@ -67,7 +67,7 @@
                        "signature": "\tfunc mapping(map: Map)",
                        "forEachCustomTypeProperty": "\t\t<!VarName!> <- map[\"<!JsonKeyName!>\"]\n",
                        "forEachArrayOfCustomTypeProperty": "\t\t<!VarName!> <- map[\"<!JsonKeyName!>\"]\n",
-                       "returnStatement": "\t\t\n",
+                       "returnStatement": "",
                        "body": "",
                        "comment": "",
                        "bodyStart": " {\n"
