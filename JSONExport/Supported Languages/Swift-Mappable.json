@@ -73,11 +73,11 @@
                        "bodyStart": " {\n"
                        },
                        {
-                       "forEachProperty": "         <!VarName!> = aDecoder.decodeObject(forKey: \"<!JsonKeyName!>\") as? <!VarType!>\n",
+                       "forEachProperty": "        <!VarName!> = aDecoder.decodeObject(forKey: \"<!JsonKeyName!>\") as? <!VarType!>\n",
                        "bodyEnd": "\t}\n",
                        "signature": "    @objc required init(coder aDecoder: NSCoder)",
-                       "forEachCustomTypeProperty": "         <!VarName!> = aDecoder.decodeObject(forKey: \"<!JsonKeyName!>\") as? <!VarType!>\n",
-                       "forEachArrayOfCustomTypeProperty": "         <!VarName!> = aDecoder.decodeObject(forKey: \"<!JsonKeyName!>\") as? <!VarType!>\n",
+                       "forEachCustomTypeProperty": "        <!VarName!> = aDecoder.decodeObject(forKey: \"<!JsonKeyName!>\") as? <!VarType!>\n",
+                       "forEachArrayOfCustomTypeProperty": "        <!VarName!> = aDecoder.decodeObject(forKey: \"<!JsonKeyName!>\") as? <!VarType!>\n",
                        "returnStatement": "",
                        "body": "",
                        "comment": "\n    /**\n    * NSCoding required initializer.\n    * Fills the data from the passed decoder\n    */\n",
